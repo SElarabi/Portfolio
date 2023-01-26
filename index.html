@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-primary m-1">
       <div class="container-fluid shadow-sm">
         <a class="navbar-brand">
           <div class="pic-boita">
@@ -89,60 +89,69 @@
 
     <!--- THE HEAD LINE-->
     <div class="container-fluid" style="width: 100%">
-      <h1 class="text-bg-white text-center">Main Page</h1>
+      <h1 class="text-bg-white text-center m-3">Main Page</h1>
     </div>
     <!-- THE Image and Youtube Video-->
-    <div class="container-fluid shadow-sm">
-      <div class="row border row align-items-start">
-        <div class="col">
-          <div class="clearfix">
-            <img
-              src="./pictures/Profile-pic01.jpeg"
-              class="col-md-6 float-md-end mb-3 ms-md-3"
-              alt="..."
-            />
+    <div class="container-fluid shadow-lg m-3">
+      <div class="p-3">
+        <div class="row align-items-start">
+          <div class="col">
+            <!--- custom padding-->
+            <div class="p-3">
+              <div class="clearfix">
+                <img
+                  src="./pictures/Profile-pic01.jpeg"
+                  class="col-md-6 float-md-end mb-3 ms-md-3"
+                  alt="..."
+                />
 
-            <p>
-              A paragraph of placeholder text. We're using it here to show the
-              use of the clearfix class. We're adding quite a few meaningless
-              phrases here to demonstrate how the columns interact here with the
-              floated image.
-            </p>
+                <p>
+                  A paragraph of placeholder text. We're using it here to show
+                  the use of the clearfix class. We're adding quite a few
+                  meaningless phrases here to demonstrate how the columns
+                  interact here with the floated image.
+                </p>
 
-            <p>
-              As you can see the paragraphs gracefully wrap around the floated
-              image. Now imagine how this would look with some actual content in
-              here, rather than just this boring placeholder text that goes on
-              and on, but actually conveys no tangible information at. It simply
-              takes up space and should not really be read.
-            </p>
+                <p>
+                  As you can see the paragraphs gracefully wrap around the
+                  floated image. Now imagine how this would look with some
+                  actual content in here, rather than just this boring
+                  placeholder text that goes on and on, but actually conveys no
+                  tangible information at. It simply takes up space and should
+                  not really be read.
+                </p>
 
-            <p>
-              And yet, here you are, still persevering in reading this
-              placeholder text, hoping for some more insights, or some hidden
-              easter egg of content. A joke, perhaps. Unfortunately, there's
-              none of that here.
-            </p>
+                <p>
+                  And yet, here you are, still persevering in reading this
+                  placeholder text, hoping for some more insights, or some
+                  hidden easter egg of content. A joke, perhaps. Unfortunately,
+                  there's none of that here.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <!-- youtube video-->
-        <div class="col text-center">
-          <div class="clearfix">
-            <div class="embed-responsive justify-content-md-evenly">
-              <iframe
-                width="500"
-                height="500"
-                src="https://www.youtube.com/embed/P9T50cojpI8"
-                title="MIT XPRO Introduction . professional coding: Full Stack Development with MERN"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
+          <!-- youtube video-->
+          <div class="col text-center">
+            <!--- custom padding-->
+            <div class="p-3">
+              <div class="clearfix">
+                <div class="embed-responsive justify-content-md-evenly">
+                  <iframe
+                    width="500"
+                    height="500"
+                    src="https://www.youtube.com/embed/P9T50cojpI8"
+                    title="MIT XPRO Introduction . professional coding: Full Stack Development with MERN"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
 
-              <p class="text-md-start my-md-3">
-                MIT XPRO Introduction.Professional Coding : Full stack
-                Development with MERN-October 2023 <br />
-              </p>
+                  <p class="text-md-start my-md-3">
+                    MIT XPRO Introduction.Professional Coding : Full stack
+                    Development with MERN-October 2023 <br />
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
