@@ -1,0 +1,15 @@
+.pic-boita{
+  width: 050px; 
+  height: 050px;                              
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  
+
+ }
+ .centered-img {
+  max-width: 100%; /* Scale down large images */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
