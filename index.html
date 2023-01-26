@@ -1,13 +1,12 @@
 <!-- @format -->
 
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Portfolio</title>
+    <title>Eddie Larabi Portfolio</title>
     <!-- stylesheet -->
     <link rel="stylesheet" href="style.css" />
     <!-- Bootstrap CSS -->
@@ -17,12 +16,13 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="./Practice.css" />
   </head>
-  <body class="text-light">
-    <!-- NAV BAR-->
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid shadow-sm">
+        <a class="navbar-brand">
           <div class="pic-boita">
             <image
               class="centered-img"
@@ -88,30 +88,46 @@
       </div>
     </nav>
 
-    <br />
-    <!-- top of  page -->
-    <div class="container-fluid">
-      <h1 class="display-6 text-center text-dark shadow-lg">
-        <u>Moving Eye Demo</u>
-      </h1>
-      <br />
+    <!--- THE HEAD LINE-->
+    <div class="container-fluid" style="width: 100%">
+      <h1 class="text-bg-info text-center">Main Page</h1>
     </div>
-
-    <!-- Video -->
-
-    <div class="container my-5 text-sm-center">
-      <div class="row">
+    <!-- THE Image and Youtube Video-->
+    <div class="container-fluid shadow-lg">
+      <div class="row border row align-items-start">
         <div class="col">
-          Saied Eddie Larabi
-          <figure class="figure-img" style="width: 500; height: 500">
+          <div class="clearfix">
             <img
               src="./pictures/Profile-pic01.jpeg"
-              class="figure-img img-fluid rounded"
+              class="col-md-6 float-md-end mb-3 ms-md-3"
               alt="..."
             />
-          </figure>
+
+            <p>
+              A paragraph of placeholder text. We're using it here to show the
+              use of the clearfix class. We're adding quite a few meaningless
+              phrases here to demonstrate how the columns interact here with the
+              floated image.
+            </p>
+
+            <p>
+              As you can see the paragraphs gracefully wrap around the floated
+              image. Now imagine how this would look with some actual content in
+              here, rather than just this boring placeholder text that goes on
+              and on, but actually conveys no tangible information at. It simply
+              takes up space and should not really be read.
+            </p>
+
+            <p>
+              And yet, here you are, still persevering in reading this
+              placeholder text, hoping for some more insights, or some hidden
+              easter egg of content. A joke, perhaps. Unfortunately, there's
+              none of that here.
+            </p>
+          </div>
         </div>
-        <div class="col">
+        <!-- youtube video-->
+        <div class="col text-center">
           <div class="clearfix">
             <div class="embed-responsive justify-content-md-evenly">
               <iframe
@@ -134,15 +150,42 @@
       </div>
     </div>
 
-    <!-- Projects -->
+    <!-- About me -->
+
+    <main class="text-bg-info text-start" style="padding: 2em">
+      <h1>Apples</h1>
+      <p>The apple is the pomaceous fruit of the apple tree.</p>
+
+      <article>
+        <h2>Red Delicious</h2>
+        <p>
+          These bright red apples are the most common found in many
+          supermarkets.
+        </p>
+        <p>…</p>
+        <p>…</p>
+      </article>
+
+      <article>
+        <h2>Granny Smith</h2>
+        <p>These juicy, green apples make a great filling for apple pies.</p>
+        <p>…</p>
+        <p>…</p>
+      </article>
+    </main>
+    <br />
+
+    <!-- projects features-->
+
     <div class="container my-5">
       <h2 class="text-center mb-4">Featured Projects</h2>
       <div class="row">
+        <!-- PacMen exercise-->
         <div class="col-md-4 mb-4">
           <div class="card h-100">
             <img
               src="https://picsum.photos/id/241/600/400"
-              alt="project image"
+              alt="PacMen_Exercise image"
               class="card-img-top"
             />
             <div class="card-body">
@@ -156,31 +199,34 @@
             </div>
           </div>
         </div>
+        <!-- Moving Eyes-->
         <div class="col-md-4 mb-4">
           <div class="card h-100">
             <img
-              src="https://picsum.photos/id/240/600/400"
-              alt="project image"
+              src="./pictures/Moving_Eyes.png"
+              alt="Eyes exercise image"
               class="card-img-top"
             />
             <div class="card-body">
               <h5 class="card-title">Eye Exercise</h5>
               <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                at leo at purus maximus ultricies. Aenean cursus sapien id
-                ligula ornare, et ornare magna eleifend.
+                This project could be used in website design, gaming, or other
+                interactive applications to create a more engaging experience
+                for the us
               </p>
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a
+                href="https://selarabi.github.io/Eye_Exercise/"
+                class="btn btn-primary"
+                >Learn More</a
+              >
             </div>
           </div>
         </div>
+        <!-- Real Time bus Tracking-->
         <div class="col-md-4 mb-4">
           <div class="card h-100">
-            <img
-              src="https://picsum.photos/id/239/600/400"
-              alt="project image"
-              class="card-img-top"
-            />
+            <img src="https://picsum.photos/id/239/600/400" alt= "Real Time Bus
+            Tracking" image" class="card-img-top" />
             <div class="card-body">
               <h5 class="card-title">Real Time Bus Tracking</h5>
               <p class="card-text">
@@ -198,9 +244,10 @@
     <!-- Footer -->
     <footer class="bg-light py-3 mt-5">
       <div class="container">
-        <p class="text-center mb-0">Copyright &copy; 2023 My Portfolio</p>
+        <p class="text-center mb-0">Copyright &copy; 2023 S.E.LARABI</p>
       </div>
     </footer>
+    <!-- other content -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
