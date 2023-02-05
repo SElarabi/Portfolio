@@ -19,13 +19,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-primary m-1">
+    <nav
+      class="navbar sticky-top navbar-expand-md navbar-dark m-1"
+      style="background-color: rgb(3, 32, 32)"
+    >
       <div class="container-fluid shadow-sm">
         <a class="navbar-brand">
           <div class="pic-boita">
             <image
               class="centered-img"
-              src="./pictures/IMG_0036.JPG "
+              src="./pictures/mypic01.JPG "
               alt=" Eddie profile pic"
             />
           </div>
@@ -43,17 +46,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
+            <!--projects link-->
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html"
-                >Home</a
-              >
+              <a class="nav-link" href="./projects.html">Projects</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
-            </li>
+
+            <!--Projects site dropdown list-->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -62,7 +60,7 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                My Github links
+                Project sites
               </a>
               <ul class="dropdown-menu">
                 <li>
@@ -79,208 +77,274 @@
                     >Packmen Exercise</a
                   >
                 </li>
-                <li><a class="dropdown-item" href="#">Real Time Tracker</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href=" https://selarabi.github.io/Real-Time-Bus-Tracker/"
+                    >Real Time Bus Tracker
+                  </a>
+                </li>
+                <a
+                  class="dropdown-item"
+                  href="https://selarabi.github.io/walk-_Boston_employee_project/"
+                  >Boston Employee Salary Exercise</a
+                >
+              </ul>
+            </li>
+            <!--  My Github Repositories-->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                My Github Repositories
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="window.open('https://github.com/SElarabi/Eye_Exercise', '_blank')"
+                    >Eye Movement demo</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="window.open('https://github.com/SElarabi/PacMen_Exercise')"
+                    >Packmen Exercise</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="window.open('https://github.com/SElarabi/Real-Time-Bus-Tracker')"
+                    >Real Time Bus Tracker</a
+                  >
+                </li>
+                <!-- Walk Boston Employee-->
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    onclick="window.open('https://github.com/SElarabi/walk-_Boston_employee_project')"
+                    >Boston Employee Salary Exercise</a
+                  >
+                </li>
               </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <!--- THE HEAD LINE-->
-    <div class="container-fluid" style="width: 100%">
-      <h1 class="text-bg-white text-center m-3">Main Page</h1>
+    <div
+      style="
+        background-image: url('./MITBannerHomepage.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        color: rgb(250, 255, 254);
+        text-align: center;
+      "
+    >
+      <h1 class="display-1 mb-2 text-decoration-underline">My Portfolio</h1>
     </div>
-    <!-- THE Image and Youtube Video-->
-    <div class="container-fluid shadow-lg m-3">
-      <div class="p-3">
-        <div class="row align-items-start">
-          <div class="col">
-            <!--- custom padding-->
-            <div class="p-3">
-              <div class="clearfix">
-                <img
-                  src="./pictures/Profile-pic01.jpeg"
-                  class="col-md-6 float-md-end mb-3 ms-md-3"
-                  alt="..."
-                />
+    <div style="background-color: rgb(3, 32, 32)">
+      <p
+        class="text-center text-decoration-underline"
+        style="color: rgb(250, 255, 254)"
+      >
+        MIT Coding Certification: Full Stack Development with MERN - October
+        2022
+      </p>
+    </div>
+    <main class="text-bg-white text-start" style="padding: 2em">
+      <!--- THE HEAD LINE-->
 
-                <p>
-                  A paragraph of placeholder text. We're using it here to show
-                  the use of the clearfix class. We're adding quite a few
-                  meaningless phrases here to demonstrate how the columns
-                  interact here with the floated image.
-                </p>
+      <!-- About me -->
 
-                <p>
-                  As you can see the paragraphs gracefully wrap around the
-                  floated image. Now imagine how this would look with some
-                  actual content in here, rather than just this boring
-                  placeholder text that goes on and on, but actually conveys no
-                  tangible information at. It simply takes up space and should
-                  not really be read.
-                </p>
+      <h1 class="display-5 text-center">About Me</h1>
 
-                <p>
-                  And yet, here you are, still persevering in reading this
-                  placeholder text, hoping for some more insights, or some
-                  hidden easter egg of content. A joke, perhaps. Unfortunately,
-                  there's none of that here.
-                </p>
-              </div>
-            </div>
+      <div class="row">
+        <!-- Profile image-->
+        <div class="col-auto">
+          <div class="smProfileImg">
+            <image
+              class="smProfileImg"
+              src="./pictures/mypic01.JPG "
+              alt=" Eddie profile pic"
+            />
           </div>
-          <!-- youtube video-->
-          <div class="col text-center">
-            <!--- custom padding-->
-            <div class="p-3">
-              <div class="clearfix">
-                <div class="embed-responsive justify-content-md-evenly">
-                  <iframe
-                    width="500"
-                    height="500"
-                    src="https://www.youtube.com/embed/P9T50cojpI8"
-                    title="MIT XPRO Introduction . professional coding: Full Stack Development with MERN"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
+        </div>
+        <div class="col text-start align-content-center">
+          <article>
+            <p class="">
+              I am a service and software engineer with 17 years of experience
+              in both domestic and international markets. I am currently
+              enrolled in the full stack development coding program at MIT and
+              expected to graduate in the summer of 2023.
+            </p>
+          </article>
+        </div>
+        <!-- about line-->
+      </div>
 
-                  <p class="text-md-start my-md-3">
-                    MIT XPRO Introduction.Professional Coding : Full stack
-                    Development with MERN-October 2023 <br />
-                  </p>
+      <!-- THE Image and Youtube Video-->
+      <div class="container-fluid shadow-lg m-3">
+        <div class="p-3">
+          <div class="row align-items-start">
+            <!--- image and contact-->
+
+            <!-- youtube video-->
+
+            <div class="col text-center">
+              <!--- custom padding-->
+              <div class="p-3">
+                <div class="clearfix">
+                  <div class="embed-responsive justify-content-md-evenly">
+                    <p class="display-6 text-md-center my-md-3">
+                      MIT XPRO Introduction <br />
+                    </p>
+                    <iframe
+                      width="500"
+                      height="500"
+                      src="https://www.youtube.com/embed/P9T50cojpI8"
+                      title="MIT XPRO Introduction . professional coding: Full Stack Development with MERN"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <!-- skills -->
+      <h1 class="display-5 text-center text-decoration-underline">Skills</h1>
 
-    <!-- About me -->
-
-    <main class="text-bg-white text-start" style="padding: 2em">
-      <h1 class="text-decoration-underline">Software engineering skills</h1>
-      <ul>
-        <li>
-          Strong understanding of software design patterns and architecture
-          principles
-        </li>
-        <li>Proficiency in programming languages Java and JavaScript</li>
-        <li>Experience with source control systems such as Git</li>
-        <li>Ability to work collaboratively in team environment</li>
-      </ul>
-      <h1 class="text-decoration-underline">
-        Instrumentation and Automation Experience
-      </h1>
-
-      <article>
-        <p>
-          I have extensive experience in instrumentation and automation
-          including implementation of control systems for manufacturing process.
-          My skills include:
-        </p>
-        <ul>
-          <li>Proficiency in electrical design and wiring schematics</li>
-          <li>
-            knowledge of safety and regulatory standards, including UL and CE
-          </li>
-        </ul>
-      </article>
-
-      <h1 class="text-decoration-underline">Field service Engineer</h1>
-      <article>
-        <p class="">
-          In addition to my software skills and instrumentation experience, I
-          have worked as a service engineer, providing on-site support and
-          maintenance for variety of systems. My skills in this area include:
-        </p>
-        <ul>
-          <li>Strong troubleshooting and problem-solving abilities</li>
-          <li>Experience with preventive maintenance and repair procedures</li>
-          <li>
-            Ability to communicate effectively with customers and team members
-          </li>
-          <li>Proficiency in the use of diagnostic and testing equipment</li>
-          <li>
-            knowledge of safety and regulatory standard, including OSHA and NFPA
-          </li>
-        </ul>
-      </article>
-    </main>
-    <br />
-
-    <!-- projects features-->
-
-    <div class="container my-5">
-      <h2 class="text-center mb-4">Featured Projects</h2>
       <div class="row">
-        <!-- PacMen exercise-->
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <img
-              src="https://picsum.photos/id/241/600/400"
-              alt="PacMen_Exercise image"
-              class="card-img-top"
-            />
-            <div class="card-body">
-              <h5 class="card-title">PacMen Exercise</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                at leo at purus maximus ultricies. Aenean cursus sapien id
-                ligula ornare, et ornare magna eleifend.
-              </p>
-              <a href="#" class="btn btn-primary">Learn More</a>
+        <div class="col">
+          <h4 class="text-decoration-underline">Field service Engineer</h4>
+          <article>
+            <p class="">
+              I work as a service engineer, providing on-site support and
+              maintenance for variety of systems. My skills in this area
+              include:
+            </p>
+            <ul>
+              <li>Strong troubleshooting and problem-solving abilities</li>
+              <li>
+                Experience with preventive maintenance and repair procedures
+              </li>
+              <li>
+                Ability to communicate effectively with customers and team
+                members
+              </li>
+              <li>
+                Proficiency in the use of diagnostic and testing equipment
+              </li>
+              <li>
+                knowledge of safety and regulatory standard, including OSHA and
+                NFPA
+              </li>
+            </ul>
+          </article>
+
+          <h4 class="text-decoration-underline">
+            Instrumentation and Automation Experience
+          </h4>
+
+          <article>
+            <p>
+              I have extensive experience in instrumentation and automation
+              including implementation of control systems for manufacturing
+              process. My skills include:
+            </p>
+            <ul>
+              <li>Proficiency in electrical design and wiring schematics</li>
+              <li>
+                knowledge of safety and regulatory standards, including UL and
+                CE
+              </li>
+            </ul>
+          </article>
+          <h4 class="text-decoration-underline">Software engineering skills</h4>
+          <ul>
+            <li>
+              Strong understanding of software design patterns and architecture
+              principles
+            </li>
+            <li>Proficiency in programming languages Java and JavaScript</li>
+            <li>Experience with source control systems such as Git</li>
+          </ul>
+        </div>
+      </div>
+      <h1 class="display-5 text-center text-decoration-underline">
+        Contact Me
+      </h1>
+      <div class="container text-center shadow-sm">
+        <div class="row-cols-auto shadow-sm">
+          <!--Email Contact-->
+          <div class="col-auto">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Best Way to Contact Me</h3>
+                <p class="card-text">Email: eddie.larabi@gmail.com</p>
+                <p class="card-text">Phone: +1-857-364-7979</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- Moving Eyes-->
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <img
-              src="./pictures/Moving_Eyes.png"
-              alt="Eyes exercise image"
-              class="card-img-top"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Eye Exercise</h5>
-              <p class="card-text">
-                This project could be used in website design, gaming, or other
-                interactive applications to create a more engaging experience
-                for the us
-              </p>
-              <a
-                href="https://selarabi.github.io/Eye_Exercise/"
-                class="btn btn-primary"
-                >Learn More</a
-              >
+          <!--GitHub card-->
+          <div class="col-auto">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">My GitHub</h3>
+                <p class="card-text">
+                  <a
+                    href="#"
+                    onclick="window.open('https://github.com/SElarabi','blank')"
+                    >https://github.com/SElarabi</a
+                  >
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- Real Time bus Tracking-->
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <img src="https://picsum.photos/id/239/600/400" alt= "Real Time Bus
-            Tracking" image" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title">Real Time Bus Tracking</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                at leo at purus maximus ultricies. Aenean cursus sapien id
-                ligula ornare, et ornare magna eleifend.
-              </p>
-              <a href="#" class="btn btn-primary">Learn More</a>
+          <!-- Linkedin Card-->
+          <div class="col-auto">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">My LinkedIn</h3>
+                <p class="card-text">
+                  <a
+                    href="#"
+                    onclick="window.open('https://linkedin.com/in/eddie-larabi-3471bb60','blank')"
+                    >Eddie Larabi</a
+                  >
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
 
     <!-- Footer -->
-    <footer class="bg-light py-3 mt-5">
+    <footer
+      style="
+        color: aliceblue;
+        background-color: rgb(3, 32, 32);
+        margin-top: auto;
+      "
+    >
       <div class="container">
-        <p class="text-center mb-0">Copyright &copy; 2023 S.E.LARABI</p>
+        <p class="text-center mb-0">Copyright &copy; 2023 S.E.Larabi</p>
       </div>
     </footer>
     <!-- other content -->
