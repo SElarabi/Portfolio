@@ -15,3 +15,12 @@
   height: 50px;
   border-radius: 50%;
 }
+
+.smProfileImg {
+  max-width: 100%; /* Scale down large images */
+  width: 200px; 
+  height: 200px;                              
+  
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
