@@ -3,11 +3,11 @@
 # Portfolio
 
 <h2>Home Page<h2>
-  <article>
+  
   <p>
   This is my personal website with projects and github repositories  worked on through MIT certfication in coding: the Full stack Development with MERN -October 2022 
   </p>
-  </article>
+
 
 <h4>MIT License </h4>
 
