@@ -12,6 +12,14 @@
 The navigation bar has 3 elements to navigate to other pages which include projects and their repositories and their sites.<br>
 In this project bootsrap styling is used with other defined styling included in style.css file.
 </p>
+Bootstrap CSS and JS are used using the following CDN links references without the need for downloading the files and include them in the project files. 
+<!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
 
 ## Roadmap of future improvements ##
 
