@@ -15,9 +15,9 @@ In this project bootsrap styling is used with other defined styling included in 
 
 ## Roadmap of future improvements ##
 
-### MIT License ###
+## MIT License ##
 
-<h5> Copyright (c) 2023 Eddie Larabi</h5>
+### Copyright (c) 2023 Eddie Larabi ###
 <p>
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
