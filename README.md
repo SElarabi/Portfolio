@@ -1,7 +1,6 @@
 <!-- @format -->
 
-# Portfolio 
-(https://selarabi.github.io/Portfolio/)
+# Portfolio  https://selarabi.github.io/Portfolio/
 
 ## Description ##
   <p>
