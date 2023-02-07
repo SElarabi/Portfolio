@@ -23,6 +23,21 @@ Bootstrap CSS and JS are used using the following CDN links references without t
     />
       )
 <p/>
+<p>
+  [Bootstrap JS and popper, the order in wich the javascript are called is:  Popper.js, then Bootstrap JS]
+  ( 
+  <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  )
+  </p>
 
 ## Roadmap of future improvements ##
 
