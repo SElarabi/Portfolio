@@ -10,7 +10,7 @@
 ## How to Run ##
 <p>
 The navigation bar has 3 elements (projects,Project sites and github repositories) which allow to navigate to other pages which include projects and their repositories and their sites.<br>
-This website was built using bootsrap styling with other defined styling included in style.css file (./style.css)
+This website was built using bootsrap styling with other defined styling included in style.css file  [style css file ](./style.css)
 </p>
 Bootstrap CSS and JS are used using the following CDN links references without the need for downloading the files and include them in the project files. 
 <p>
