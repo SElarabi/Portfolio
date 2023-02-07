@@ -2,7 +2,7 @@
 
 # Portfolio
 
-## Home Page ##
+## Description ##
   <p>
   This is my personal website with projects and github repositories  worked on through MIT certfication in coding: the Full stack Development with MERN -October 2022 
   </p>
@@ -40,6 +40,10 @@ Bootstrap CSS link
   </p>
 
 ## Roadmap of future improvements ##
+<p>
+  - Add form from which a visitor to my site can send me email trough contact section.
+  -Keep updates with new projects to add in the list of dropdown list.
+  </p>
 
 ## MIT License ##
 
