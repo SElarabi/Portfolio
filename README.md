@@ -2,12 +2,12 @@
 
 # Portfolio
 
-<h3>Home Page<h3>
+## Home Page ##
   <p>
   This is my personal website with projects and github repositories  worked on through MIT certfication in coding: the Full stack Development with MERN -October 2022 
   </p>
 
-<h3 class = "text-decoration-underline ">How to Run</h3>
+##How to Run##
 <p>
 The navigation bar has 3 elements to navigate to other pages which include projects and their repositories and their sites.<br>
 In this project bootsrap styling is used with other defined styling included in style.css file.
