@@ -13,9 +13,9 @@ The navigation bar has 3 elements to navigate to other pages which include proje
 In this project bootsrap styling is used with other defined styling included in style.css file.
 </p>
 
-<h3>Roadmap of future improvements<h3>
+## Roadmap of future improvements ##
 
-<h4>MIT License </h4>
+### MIT License ###
 
 <h5> Copyright (c) 2023 Eddie Larabi</h5>
 <p>
