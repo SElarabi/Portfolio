@@ -15,13 +15,13 @@ In this project bootsrap styling is used with other defined styling included in 
 Bootstrap CSS and JS are used using the following CDN links references without the need for downloading the files and include them in the project files. 
 <p>
 [Bootstrap CSS ]
-
-     ( href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-      )
+      
 <p/>
 <p>
   [Bootstrap JS and popper, the order in wich the bootstrap javascript are called is:  Popper.js, then Bootstrap JS]
@@ -34,9 +34,8 @@ Bootstrap CSS and JS are used using the following CDN links references without t
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-      crossorigin="anonymous"
-    >
-  </script>
+      crossorigin="anonymous">
+    </script>
   
   </p>
 
