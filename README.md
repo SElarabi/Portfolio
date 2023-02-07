@@ -10,7 +10,7 @@
 ## How to Run ##
 <p>
 The navigation bar has 3 elements to navigate to other pages which include projects and their repositories and their sites.<br>
-In this project bootsrap styling is used with other defined styling included in style.css file.
+This website was built using bootsrap styling with other defined styling included in style.css file.
 </p>
 Bootstrap CSS and JS are used using the following CDN links references without the need for downloading the files and include them in the project files. 
 <p>
@@ -41,8 +41,8 @@ Bootstrap CSS link
 
 ## Roadmap of future improvements ##
 <p>
-  - Add form from which a visitor to my site can send me email trough contact section.
-  -Keep updates with new projects to add in the list of dropdown list.
+  +Add form from which a visitor to my site can send me email trough contact section.
+  +Keep updates with new projects to add in the list of dropdown list.
   </p>
 
 ## MIT License ##
