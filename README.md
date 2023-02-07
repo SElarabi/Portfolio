@@ -37,7 +37,7 @@ Bootstrap CSS and JS are used using the following CDN links references without t
       crossorigin="anonymous"
     >
   </script>
-  )
+  
   </p>
 
 ## Roadmap of future improvements ##
