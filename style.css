@@ -38,7 +38,7 @@
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	background-image: url(imgs/header.jpg);
+	background-image: url(imgs/MITBannerHomepage.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -47,20 +47,15 @@
 .header .overlay {
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 0%;
 	width: 100%;
 	height: 100%;
-	background-image: -webkit-linear-gradient(
-		bottom,
-		#fff 0%,
-		rgba(105, 90, 166, 0.35) 99%,
-		rgba(105, 90, 166, 0.5) 100%
-	);
+
 	background-image: linear-gradient(
 		to top,
 		#fff 0%,
-		rgba(105, 90, 166, 0.35) 99%,
-		rgba(105, 90, 166, 0.5) 100%
+		rgba(5, 40, 2, 0.35) 60%,
+		rgba(5, 40, 2, 0.35) 100%
 	);
 }
 
@@ -76,7 +71,7 @@
 .header .header-content .header-title .up {
 	font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
 	font-weight: 500;
-	color: #444;
+	color: #25030b;
 	margin-bottom: 5px;
 	position: relative;
 	display: block;
@@ -108,7 +103,7 @@
 	font-size: 2.4rem;
 	font-weight: bold;
 	opacity: 0.8;
-	color: #212529;
+	color: #25030b;
 }
 
 .header-mini {
@@ -133,5 +128,5 @@
 	justify-content: center;
 	text-align: center;
 	padding: 1rem;
-	background: #0f0e17;
+	background: #25030b;
 }
