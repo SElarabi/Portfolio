@@ -16,23 +16,22 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
   <nav class="navbar sticky-top navbar-expand-md navbar-dark m-1" style="background-color: rgb(3, 32, 32)">
     <div class="container-fluid shadow-sm">
-      <a class="navbar-brand">
-        <div class="pic-boita">
-          <image class="centered-img" src="./pictures/mypic01.JPG " alt=" Eddie profile pic" />
-        </div>
-      </a>
+
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+
+        <!--Set of dropdown list Links outside the page -->
+        <ul class="navbar-nav m-lg-auto">
           <!--projects link-->
           <li class="nav-item">
-            <a class="nav-link" href="./projects.html">Projects</a>
+            <a class="nav-link" href="./projects.html"> MY Projects </a>
           </li>
 
           <!--Projects site dropdown list-->
@@ -54,57 +53,52 @@
               <a class="dropdown-item" href="https://selarabi.github.io/walk-_Boston_employee_project/">Boston Employee
                 Salary Exercise</a>
             </ul>
+          </li> <!-- end of drop down list-->
+          
+        </ul> <!-- End of dropdown list set-->
+
+        <!-- Set of Links inside the page-->
+        <ul class="navbar-nav m-lg-auto">
+          <li class="nav-item ">
+            <a class="nav-link " href="#home">Home </a>
           </li>
-          <!--  My Github Repositories-->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              My Github Repositories
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="#"
-                  onclick="window.open('https://github.com/SElarabi/Eye_Exercise', '_blank')">Eye Movement demo</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#"
-                  onclick="window.open('https://github.com/SElarabi/PacMen_Exercise')">Packmen Exercise</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#"
-                  onclick="window.open('https://github.com/SElarabi/Real-Time-Bus-Tracker')">Real Time Bus Tracker</a>
-              </li>
-              <!-- Walk Boston Employee-->
-              <li>
-                <a class="dropdown-item" href="#"
-                  onclick="window.open('https://github.com/SElarabi/walk-_Boston_employee_project')">Boston Employee
-                  Salary Exercise</a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
-        </ul>
+          <li class="nav-item ">
+            <a class="nav-link " href="#about">About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul><!-- of list of links Links outside the page-->
       </div>
+     
+      <!--Mypic logo-->
+      <a class="navbar-brand ">
+        <div class="pic-boita">
+          <image class="centered-img" src="imgs/mypic01.JPG " alt=" Eddie profile pic" />
+        </div>
+      </a>
     </div>
   </nav>
-  <!--- THE HEAD LINE-->
-  <div style="
-        background-image: url('./pictures/MITBannerHomepage.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        color: rgb(250, 255, 254);
-        text-align: center;
-      ">
-    <h1 class="display-1 mb-2 text-decoration-underline">My Portfolio</h1>
-  </div>
-  <!--MIT certifcate banner-->
-  <div style="background-color: rgb(3, 32, 32)">
-    <p class="text-center text-decoration-underline" style="color: rgb(250, 255, 254)">
-      MIT Coding Certification: Full Stack Development with MERN - October
-      2022
-    </p>
-  </div>
+  
+  
+  <!-- page header -->
+  <header id="home" class="header">
+    <div class="overlay"></div>
+    <div class="header-content container">
+      <h1 class="header-title">
+        <span class="up">HI!</span>
+        <span class="down">I am eddie Larabi</span>
+      </h1>
+      <p class="header-subtitle">FRONTEND WEB DESIGNER</p>
+
+      <button class="btn btn-primary">Visit My Works</button>
+    </div>
+  </header><!-- end of page header -->
   <main class="text-bg-white text-start" style="padding: 2em">
-    <!-- About me -->
+    <!-- About section-->
 
     <h1 class="display-5 text-center">About Me</h1>
 
@@ -128,34 +122,7 @@
       <!-- about line-->
     </div>
 
-    <!-- THE Image and Youtube Video-->
-    <div class="container-fluid shadow-lg m-3">
-      <div class="p-3">
-        <div class="row align-items-start">
-          <!--- image and contact-->
-
-          <!-- youtube video-->
-
-          <div class="col text-center">
-            <!--- custom padding-->
-            <div class="p-3">
-              <div class="clearfix">
-                <div class="embed-responsive justify-content-md-evenly">
-                  <p class="display-6 text-md-center my-md-3">
-                    MIT XPRO Introduction <br />
-                  </p>
-                  <iframe width="500" height="500" src="https://www.youtube.com/embed/P9T50cojpI8"
-                    title="MIT XPRO Introduction . professional coding: Full Stack Development with MERN"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+   
     <!-- skills -->
     <h1 class="display-5 text-center text-decoration-underline">Skills</h1>
 
