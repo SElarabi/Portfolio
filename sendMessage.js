@@ -11,6 +11,12 @@ window.onload = function () {
 			emailjs.sendForm('service_6yfy5fs', 'template_8kijxr3', this).then(
 				function () {
 					//RESET FORM
+					// Reset the form
+					document.getElementById('user_name').value = '';
+					document.getElementById('user_email').value = '';
+					document.getElementById('message').value = '';
+					// Show the success message
+					document.getElementById('success-message').style.display = 'block';
 					console.log('SUCCESS!');
 				},
 				function (error) {
