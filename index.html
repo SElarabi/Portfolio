@@ -17,9 +17,13 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css" />
+
+	
+
+	
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home ">
 	<!--navbar-->
 	<nav class="navbar sticky-top navbar-expand-md navbar-dark m-1" style="background-color: rgb(3, 32, 32)">
 		<div class="container-fluid shadow-sm">
@@ -295,9 +299,6 @@
 	</section>
 	<!-- END OF MIT CERTIFICATION -->
 
-
-
-
 	<!-- Contact me Section-->
 	<section class="section text-center my-5" id="contact">
   <div class="container text-center">
@@ -353,20 +354,49 @@
 
 			<h6 class="section-title mb-5">Send Me Message</h6>
 			<!-- contact form -->
-			<form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+			<form id="contact-form" action="submit" class="contact-form col-md-10 col-lg-8 m-auto">
 				<div class="form-row">
 					<div class="form-group col-sm-6">
-						<input id='yourName' type="text" size="50" class="form-control" placeholder="Your Name" required />
+						<!--HIDEN FIELD-->
+						<input 
+						type="hidden" 
+						name="contact_number">
+						
+						<!--USER_NAME-->
+						<input 
+						class="form-control"
+						type="text"
+						id='user_name' 
+						name="user_name" 
+						placeholder="Your Name" 
+						size="50"
+						required />
 					</div>
+
+					<!--USER_EMAIL-->
 					<div class="form-group col-sm-6">
-						<input type="email" class="form-control" placeholder="Enter Email" requried />
+						<input 
+						class="form-control"
+						type="email" 
+						id="user_email" 
+						name="user_email" 
+						placeholder="Enter Email" 
+						requried />
 					</div>
+					
 					<div class="form-group col-sm-12">
-						<textarea name="comment" id="comment" rows="6" class="form-control"
-							placeholder="Write Something"></textarea>
+						<textarea  
+						class="form-control"
+						id="message"
+						name="message"
+						placeholder="Write Something"
+						rows="6" >
+					</textarea>
+					
+						
 					</div>
 					<div class="form-group col-sm-12 mt-3">
-						<input type="submit" value="Send Message" class="btn btn-outline-primary rounded" />
+						<input type="submit" value="Send" class="btn btn-outline-primary rounded" />
 					</div>
 				</div>
 			</form>
@@ -392,6 +422,16 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
 		integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
 		crossorigin="anonymous"></script>
+		
+		
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init("BepF_3vS7SDG9tMYe");
+        })();
+    </script>
+		<script type="text/javascript " src='sendMessage.js' ></script>
 </body>
 
 </html>
