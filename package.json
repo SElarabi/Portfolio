@@ -1,0 +1,16 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "personel portfolio",
+	"source": "src/index.html",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build"
+	},
+	"author": "eddie.larabi@gmail.com",
+	"license": "MIT",
+	"devDependencies": {
+		"parcel": "latest"
+	}
+}
