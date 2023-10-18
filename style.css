@@ -364,6 +364,7 @@ h4,
 h5,
 h6 {
 	font-weight: 500;
-	font-family: 'Baloo Paaji', cursive;
+	font-family: 'Times New Roman', Times, serif;
+	/* font-family: 'Baloo Paaji', cursive; */
 	color: #695aa6;
 }
