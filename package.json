@@ -4,13 +4,7 @@
 	"description": "personel portfolio",
 	"source": "src/index.html",
 	"browserslist": "> 0.5%, last 2 versions, not dead",
-	"scripts": {
-		"start": "parcel",
-		"build": "parcel build"
-	},
+	"scripts": {},
 	"author": "eddie.larabi@gmail.com",
-	"license": "MIT",
-	"devDependencies": {
-		"parcel": "latest"
-	}
+	"license": "MIT"
 }
