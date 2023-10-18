@@ -45,7 +45,6 @@ Bootstrap CSS link
 
 ## Roadmap of future improvements
 
-- Add form from which a visitor to my site can send me email trough contact section.
 - Keep updates with new projects to add in the list of dropdown list.
 
 ## MIT License
