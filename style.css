@@ -1,4 +1,10 @@
 /** @format */
+/* RESET  */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 @import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i');
 html {
 	font-family: sans-serif;
