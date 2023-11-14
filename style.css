@@ -352,13 +352,30 @@ button:focus {
 	background-clip: border-box;
 	border: 1px solid rgba(0, 0, 0, 0.125);
 	border-radius: 0;
+	object-fit: contain;
 }
 .card-body {
-	-webkit-box-flex: 1;
+	/* display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding: 1.25rem; */
+	/* -webkit-box-flex: 1;
 	-webkit-flex: 1 1 auto;
-	-ms-flex: 1 1 auto;
+	-ms-flex: 1 1 auto; */
+
 	flex: 1 1 auto;
 	padding: 1.25rem;
+	justify-content: center;
+}
+.btn {
+	margin: 1rem;
+}
+.imageFill {
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain; /* Maintain aspect ratio while filling the container */
 }
 .card-title {
 	margin-bottom: 0.75rem;
