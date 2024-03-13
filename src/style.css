@@ -1,4 +1,10 @@
 /** @format */
+/* RESET  */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 @import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i');
 html {
 	font-family: sans-serif;
@@ -20,6 +26,7 @@ body {
 	color: #212529;
 	text-align: left;
 	background-color: #fff;
+	/* background-color: #000; */
 }
 .pic-boita {
 	width: 050px;
@@ -213,6 +220,7 @@ body {
 	margin-bottom: 6px;
 	font-weight: 400;
 	opacity: 0.6;
+	color: darkred;
 }
 
 .section-sm {
@@ -346,13 +354,20 @@ button:focus {
 	background-clip: border-box;
 	border: 1px solid rgba(0, 0, 0, 0.125);
 	border-radius: 0;
+	object-fit: contain;
 }
 .card-body {
-	-webkit-box-flex: 1;
-	-webkit-flex: 1 1 auto;
-	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
 	padding: 1.25rem;
+	justify-content: center;
+}
+.btn {
+	margin: 1rem;
+}
+.imageFill {
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain; /* Maintain aspect ratio while filling the container */
 }
 .card-title {
 	margin-bottom: 0.75rem;
@@ -367,4 +382,7 @@ h6 {
 	font-family: 'Times New Roman', Times, serif;
 	/* font-family: 'Baloo Paaji', cursive; */
 	color: #695aa6;
+}
+.p {
+	padding: 4rem;
 }
